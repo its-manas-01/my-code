@@ -9,7 +9,7 @@ class A
         }
         void display()
         {
-            std::cout<<a<<std::endl;
+            std::cout<<"The answer is:-"<<a<<std::endl;
         }
         A operator+ (A);      
 };
