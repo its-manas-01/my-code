@@ -22,7 +22,7 @@ int main()
 {
     A ob;
     int a,b;
-    std::cout<<"Enter a value:-"<<std::endl;
+    std::cout<<"Enter the first value:-"<<std::endl;
     std::cin>>a;
     ob.get(a);
     std::cout<<"Enter another two values:-"<<std::endl;
