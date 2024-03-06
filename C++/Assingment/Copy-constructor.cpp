@@ -3,11 +3,11 @@ class A
 {
     public:
         int a;
-        A (int x)
+        A(int x)
         {
             a=x;
         }
-        A (A &p)
+        A(A &p)
         {
             a=p.a;
         }
@@ -20,7 +20,7 @@ int main()
 {
     A ob1;
     A ob(5);
-    A 0b1(ob);
+    0b1(ob);
     ob.display();
     ob1.display();
     return 0;
