@@ -1,27 +1,27 @@
-#include"iostream"
-class A
-{
-    public:
-        int a;
-        A(int x)
-        {
-            a=x;
-        }
-        A(A &p)
-        {
-            a=p.a;
-        }
-        void display()
-        {
-            std::cout<<a<<std::endl;
-        }
+#include <iostream>
+class A{
+private:
+	int x, y;
+
+public:
+	A(int x1, int y1)
+	{
+		x = x1;
+		y = y1;
+	}
+	A(const A& p1)
+	{
+		x = p1.x;
+		y = p1.y;
+	}
+	int getX() { return x; }
+	int getY() { return y; }
 };
 int main()
 {
-    A ob1;
-    A ob(5);
-    0b1(ob);
-    ob.display();
-    ob1.display();
-    return 0;
+	A p1(10, 15);
+	A p2 = p1;
+	std::cout << "p1.x = " << p1.getX()<< ", p1.y = " << p1.getY()<<std::endl;
+	std::cout << "p2.x = " << p2.getX()<< ", p2.y = " << p2.getY()<<std::endl;
+	return 0;
 }
