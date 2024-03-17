@@ -4,10 +4,10 @@ read a
 flag=0
 i=2
 
-while [ "$i" -le "$a/2" ]
+while [ "$i" -le "$((a/2))" ]
 do
     if [ "$((a%i))" -eq 0 ]; then
-        flag = 1
+        flag=1
         break
     fi
     ((i++))
