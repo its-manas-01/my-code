@@ -1,23 +1,3 @@
-// import java.util.Scanner;
-
-// public class b {
-
-//     public static void main(String[] args)
-//     {
-//         int m,n;
-//         Scanner sc=new Scanner(System.in);
-//         m=sc.nextInt();
-//         n=sc.nextInt();
-//         for (int i=0;i<=m;i++)
-//         {
-//             for (int j=0;j<=i;j++)
-//             {
-//                 System.out.print("*");
-//             }
-//             System.out.println();
-//         }
-//     }
-// }
 import java.util.Scanner;
 
 public class b {
@@ -35,6 +15,7 @@ public class b {
                     System.out.print(" ");  
             }
             System.out.println();
-        }        
+        } 
+        sc.close();       
     }
 }
