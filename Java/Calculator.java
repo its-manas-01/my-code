@@ -34,6 +34,6 @@ public class Calculator {
                 System.out.println("Invalid option");
                 break;
         }
-
+        in.close();
     }
 }
