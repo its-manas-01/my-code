@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<math.h>
 int main(int argc, char const *argv[])
 {
     int a=9,b=2,c=0;
