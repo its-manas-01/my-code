@@ -2,7 +2,7 @@ import java.util.*;
 
 
 public class Bubble_sort {
-    public static int bubble(int[] elements)
+    public static int[] bubble(int[] elements)
     {
         for (int i = 0; i < elements.length-1; i++)
         {
@@ -16,12 +16,12 @@ public class Bubble_sort {
                 }
             }
         }
-        return elements[elements.length];
         // System.out.println(("The sorted elements are:-"));
         // for(int i = 0; i < elements.length; i++)
         // {
         //     System.out.print(elements[i]+"\t");
         // }
+        return elements;
     }
     public static void main(String[] args) 
     {
@@ -35,8 +35,7 @@ public class Bubble_sort {
         {
             elements[i] = sc.nextInt();
         }
-        int[] a = new int[n];
-        a[n]=bubble(elements);
+        int[] a = bubble(elements);
         System.out.println(("The sorted elements are:-"));
         for(int i = 0; i < a.length; i++)
         {
