@@ -26,7 +26,7 @@ class d{
         for(int i=0;i<a.length;i++)
         {
             int c=i+1;
-            System.out.println(c+a[i]);
+            System.out.println(c+" "+a[i]);
         }
         scan.close();
     }
