@@ -1,18 +1,4 @@
-// import java.util.*;
-// import java.math.*;
-// public class d {
-//     public static void main(String[] args) {
-//         Scanner scanner =new Scanner(System.in);
-//         double n=scanner.nextDouble();
-//         double b=scanner.nextDouble();
-//         double a=Math.pow(n, b);
-//         System.out.println(a);
-//     }
-// }
 import java.util.*;
-
-
-
 
 class d{
     public static void main(String[] args) {
