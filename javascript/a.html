@@ -3,10 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="module" src="a.js"></script>
-    <title>Document</title>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="a.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis minima aut accusantium, in recusandae eaque facilis explicabo mollitia, exercitationem, rem fugit. Harum fugiat perspiciatis voluptates quaerat aut ratione ea officia!</p>
+    <div class="background">
+        <div class="front">
+                <div class="output"></div>
+                <div class="input">
+                    <div class="input-background">
+                        <button class="number"><b>%</b></button>
+                        <button class="number"><b>CE</b></button>
+                        <button class="number"><b>C</b></button>
+                        <button class="number"><i class="fa-solid fa-delete-left"></i></button>
+                    </div>
+                    <div class="input-background">
+                        <button class="number"><b>1/x</b></button>
+                        <button class="number"><b>x</b><sup style=font-size:10px><b>2</b></sup></button>
+                        <button class="number"><i class="fa-solid fa-square-root-variable"></i></button>
+                        <button class="number"><b>/</b></button>
+                    </div>
+                    <div class="input-background">
+                        <button class="number"><b>7</b></button>
+                        <button class="number"><b>8</b></button>
+                        <button class="number"><b>9</b></button>
+                        <button class="number"><b>*</b></button>
+                    </div>
+                    <div class="input-background">
+                        <button class="number"><b>4</b></button>
+                        <button class="number"><b>5</b></button>
+                        <button class="number"><b>6</b></but>
+                        <button class="number"><b>-</b></button>
+                    </div>
+                    <div class="input-background">
+                        <button class="number"><b>1</b></button>
+                        <button class="number"><b>2</b></button>
+                        <button class="number"><b>3</b></button>
+                        <button class="number"><b>+</b></button>
+                    </div>
+                    <div class="input-background">
+                        <button class="number"><b>+/-</b></button>
+                        <button class="number"><b>0</b></button>
+                        <button class="number"><b>.</b></button>
+                        <button class="number x"><b>=</b></button>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <script type="module" src="a.js"></script>
 </body>
 </html>
