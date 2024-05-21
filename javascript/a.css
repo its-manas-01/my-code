@@ -7,7 +7,7 @@ body{
 {
     height: 670px;
     width: 400px;
-    background-color: rgb(29, 4, 91);
+    background-color: rgb(19, 16, 27);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,6 +21,7 @@ body{
     /* display: flex;
     justify-content: center;
     align-items:center;*/
+    border-radius: 2%;
 } 
 .output
 {
@@ -57,7 +58,7 @@ body{
     height: 68px;
     width: 120px;
     border-radius: 30%;
-    background-color: rgb(15, 179, 194);
+    background-color: rgb(187, 184, 222);
     display: flex;
     align-items: center;
     justify-content: center;
