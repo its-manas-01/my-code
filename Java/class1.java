@@ -2,12 +2,12 @@ import java.util.Scanner;
 public class class1 {
     public static void main(String[] args)
     {
-        A ob=new A();
+        x ob=new x();
         ob.input();
         ob.display();
     }
 }
-class A
+class x
 {
     int a,b,c,d;
     Scanner scanner=new Scanner(System.in);

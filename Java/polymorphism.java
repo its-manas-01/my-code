@@ -3,7 +3,7 @@ public class polymorphism
 {
     public static void main(String[] args)
     {
-        A ob= new A();
+        Y ob= new Y();
         Scanner scanner= new Scanner(System.in);
         System.out.println("Enter 3 numbers");
         ob.input(scanner.nextInt());
@@ -12,7 +12,7 @@ public class polymorphism
         scanner.close();
     }
 }
-class A
+class Y
 {
     int a,b,c,d;
     public void input(int x)
