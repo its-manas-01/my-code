@@ -40,7 +40,7 @@ class C extends B
 class D extends C
 {
     int d;
-    public void cal()
+    void cal()
     {
         d=(a>b)?(a>c?a:c):(b>c)?b:c;
         System.out.println("the maximun is :"+d);
