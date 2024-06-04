@@ -14,9 +14,6 @@ public class Multiple_Inheritance {
         sc.close();
     }
 }
-/**
- * InnerMultiple_Inheritance
- */
 interface z {
     void get(int x);
     void get(int x, int y);
