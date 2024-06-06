@@ -1,8 +1,5 @@
-import java.util.*;
+import java.util.Scanner;
 
-/**
- * InnerInterface
- */
 interface  x{
     static final int a=5;
     void cal(int b);   
