@@ -18,9 +18,7 @@ body{
     height: 650px;
     width: 380px;
     background-color: rgb(24, 8, 112);
-    /* display: flex;
-    justify-content: center;
-    align-items:center;*/
+    /* display: flex;*/
     border-radius: 2%;
 } 
 .output
@@ -41,6 +39,10 @@ body{
 {
     height: 145px;
     width: 345px;
+    font-size: 30px;
+    display: flex;
+    align-items: end;
+    justify-content: baseline;
 }
 .input
 {

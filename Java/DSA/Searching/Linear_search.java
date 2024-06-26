@@ -1,46 +1,25 @@
-package DSA.Searching;
-
 import java.util.Scanner;
 
-public class Linear_search {
-    public static void main(String[] args) {
+import Pkg.*;
+
+public class Linear_search 
+{
+    public static void main(String[] args) 
+    {
         Scanner scanner = new Scanner(System.in);
         A ob=new A();
-        System.out.println("Enter the quentity of elements:-");
-        ob.n=scanner.nextInt();
-        for (int i=0;i<ob.n;i++)
+        System.out.println("Enter the quentity of number:-");
+        int n=scanner.nextInt();
+        int[] arr=new int[n];
+        System.out.println("Enter the number:-");
+        for(int i=0;i<5;i++)
         {
-            ob.get(scanner.nextInt());
+            arr[i]=scanner.nextInt();
         }
-        System.out.println("Enter the element you find:-");
-        ob.key=scanner.nextInt();
-        int i=ob.cal();
-        System.out.println("The element is exists in "+i+"position");
+        System.out.println("Enter the number to search:-");
+        int key=scanner.nextInt();
+        int x=ob.Linear_search(arr, key);
+        System.out.println(x);
         scanner.close();
-    }
-}
-
-class A{
-    int n;
-    int[] a=new int[n];
-    void get(int x)
-    {
-        int i=0;
-        a[i]=x;
-        i++;
-    }
-    int key;
-    int cal()
-    {
-        int i;
-        for(i=0;i<a.length;i++)
-        {
-            if(a[i]==key)
-            {
-                System.out.println(key+"is found");
-                break;
-            }
-        }
-        return i;
     }
 }
